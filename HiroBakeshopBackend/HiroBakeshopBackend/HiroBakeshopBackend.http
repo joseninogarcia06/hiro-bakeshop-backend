@@ -1,0 +1,6 @@
+@HiroBakeshopBackend_HostAddress = http://localhost:5017
+
+GET {{HiroBakeshopBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend/HiroBakeshopBackend.csproj": {}
+    "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj": {}
   },
   "projects": {
-    "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend/HiroBakeshopBackend.csproj": {
+    "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
+        "projectUniqueName": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
         "projectName": "HiroBakeshopBackend",
-        "projectPath": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
+        "projectPath": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
         "packagesPath": "/Users/joseninogarcia/.nuget/packages/",
-        "outputPath": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend/obj/",
+        "outputPath": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/joseninogarcia/.nuget/NuGet/NuGet.Config"
@@ -47,6 +47,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             }
           },
           "imports": [

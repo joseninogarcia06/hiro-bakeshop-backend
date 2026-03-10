@@ -8,17 +8,20 @@ public class ProductsEntity : BaseEntity
 
     public string ProductDescription { get; set; }
 
-    public decimal Amount { get; set; }
+    public string ProductType { get; set; }
+
+    public double Amount { get; set; }
 
     public ProductsEntity() { }
 
-    public ProductsEntity(int productId, string productName, string productImageUrl, string productDescription, decimal amount)
+    public ProductsEntity(int productId, string productName, string productImageUrl, string productDescription, string productType, double amount)
     {
         this.Id = Guid.NewGuid();
         this.ProductId = productId;
         this.ProductImageUrl = productImageUrl;
         this.ProductName = productName;
         this.ProductDescription = productDescription;
+        this.ProductType = productType;
         this.Amount = amount;
         this.CreatedOn = DateTimeOffset.Now;
         this.CreatedBy = "SYSTEM";

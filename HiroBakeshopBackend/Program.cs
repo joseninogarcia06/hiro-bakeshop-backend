@@ -30,7 +30,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
-app.UseCors();
+app.UseCors("AllowAll");
 
 // using(var scope = app.Services.CreateScope())
 // {

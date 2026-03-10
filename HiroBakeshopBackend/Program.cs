@@ -5,8 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<AppDbContext>(options => 
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+// builder.Services.AddDbContext<AppDbContext>(options => 
+//     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
 
@@ -21,10 +21,16 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapControllers();
 
-using(var scope = app.Services.CreateScope())
+// using(var scope = app.Services.CreateScope())
+// {
+//     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+//     db.Database.Migrate();
+// }
+
+app.MapGet("/api/v1/getproducts", (HttpContext context) =>
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
-}
+    var seed = new ProductSeed();
+    return seed.GetProducts();
+});
 
 app.Run();

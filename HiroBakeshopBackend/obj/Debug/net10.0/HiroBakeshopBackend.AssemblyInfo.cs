@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HiroBakeshopBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9eafadcdcc518af9de6ea0ac820f87c17ed74dc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e0b72530c1d15d40df6b093cc60f4b57adfb080")]
 [assembly: System.Reflection.AssemblyProductAttribute("HiroBakeshopBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HiroBakeshopBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2238,19 +2238,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/joseninogarcia/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
+      "projectUniqueName": "/workspaces/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
       "projectName": "HiroBakeshopBackend",
-      "projectPath": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
-      "packagesPath": "/Users/joseninogarcia/.nuget/packages/",
-      "outputPath": "/Users/joseninogarcia/Documents/hiro-bakeshop-backend/HiroBakeshopBackend/obj/",
+      "projectPath": "/workspaces/hiro-bakeshop-backend/HiroBakeshopBackend/HiroBakeshopBackend.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/hiro-bakeshop-backend/HiroBakeshopBackend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/joseninogarcia/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2318,7 +2318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
